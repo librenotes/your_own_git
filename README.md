@@ -85,6 +85,7 @@ Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
 
 - In this case, we generally select 2. But it is your choice.
 
+### Gitea web config part
 
 - Now go to your domain or `your_ip:3000` over a web browser. It will redirect you to your git server installation page, select **Postgresql as Database Type in Database Settings**, enter necessity informations `<yourpostgresusername> <yourdbname> <yourpass>`.
 - Don't forget to change **Application URL in General Application Settings**, set it to your domain or `your_ip:3000`.
@@ -107,6 +108,8 @@ sudo nano /home/git/custom/conf/app.ini
 #### Bonus : Your git service has an API! Checkout `<yourip:3000_or_yourdomain>/api/swagger`
 
 ## Donate and Help Us
+
+### As Librenotes team we are developing free as in freedom note taking application, checkout [Librenotes](https://github.com/librenotes/web), any help is appreciated!
 
 ```
 BTC > qzuej7qa36tkqpzuyz265068s7exymn4dq8h6ha9ep
