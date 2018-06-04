@@ -108,9 +108,11 @@ sudo nano /home/git/custom/conf/app.ini
 
 ## Donate and Help Us
 
-``` 
-<b>BTC > qzuej7qa36tkqpzuyz265068s7exymn4dq8h6ha9ep
+```
+<b>
+BTC > qzuej7qa36tkqpzuyz265068s7exymn4dq8h6ha9ep
 
-ETH > 0xBCa591260D9b0d25eD87dc9B4330980DA44DbB18</b>
+ETH > 0xBCa591260D9b0d25eD87dc9B4330980DA44DbB18
+</b>
 ```
 
