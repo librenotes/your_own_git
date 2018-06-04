@@ -53,7 +53,7 @@ class Gittea:
                 visibility="all", new_visibility="inherit"):
         gh = Github(login=github_username, password=auth_password)
         repos = gh.repos(visibility=visibility, affiliation=affiliation)
-        for repo in repos[:1]:
+        for repo in repos:
             clone_addr = repo['clone_url']
             print(clone_addr)
             description = repo['description']
