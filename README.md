@@ -105,7 +105,9 @@ sudo nano /home/git/custom/conf/app.ini
  sudo systemctl restart gitea.service 
 ```
 
-#### Bonus : Your git service has an API! Checkout `<yourip:3000_or_yourdomain>/api/swagger`
+#### Bonus 0: Your git service has an API! Checkout `<yourip:3000_or_yourdomain>/api/swagger`
+
+#### Bonus 1: You can use migrater.py to migrate your project into your new git server! 
 
 ## Donate and Help Us
 
