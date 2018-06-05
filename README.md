@@ -17,7 +17,7 @@ As you know github is sold to MS. If you don't want to use it anymore for variou
 - Change to that user, `sudo - git`
 - After update and upgrade complete, install postgresql with following command `sudo apt-get install postgresql postgresql-contrib` 
 - After postgresql installation done, install nginx server with following command `sudo apt-get install nginx` 
-- We are almost done, know lets download the binary for Gitea run the following command `wget -O gitea https://dl.gitea.io/gitea/1.3.2/gitea-1.3.2-linux-amd64` **and be sure that you are in** `/home/git` directory.
+- We are almost done, now lets download the binary for Gitea run the following command `wget -O gitea https://dl.gitea.io/gitea/1.3.2/gitea-1.3.2-linux-amd64` **and be sure that you are in** `/home/git` directory.
 - After download opperation, give permission to it: `chmod +x gitea` 
 - After this step, lets make necessity configuration in Nginx, `sudo nano /etc/nginx/sites-available/gitserver` and paste the following lines with editing `<ip_or_domain>`(domain adress or public ip adress) 
 
