@@ -33,7 +33,7 @@ class Gittea:
         else:
             self.username = login
             self.auth = (login, password)
-        r = get(api_url + "/user", auth=self.auth).json()
+        r = get(api_url + "/user", auth=self.auth, headers=self.headers).json()
         self.uid = r['id']
 
     def __migrate(self, auth_password, auth_username, clone_addr, description, private, repo_name):
