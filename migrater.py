@@ -47,7 +47,7 @@ class Gittea:
             "repo_name": repo_name,
             "uid": str(self.uid)
         }
-        r = post(self.API_URL + "/repos/migrate", data=data, auth=self.auth)
+        r = post(self.API_URL + "/repos/migrate", data=data, auth=self.auth, headers=self.headers)
 
     def migrate(self, github_username, auth_password=None, affiliation="owner,collaborator,organization_member",
                 visibility="all", new_visibility="inherit"):
