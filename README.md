@@ -116,7 +116,7 @@ sudo nano /home/git/custom/conf/app.ini
 ### As Librenotes team we are developing free as in freedom note taking application, checkout [Librenotes](https://github.com/librenotes/web), any help is appreciated!
 
 ```
-BTC > qzuej7qa36tkqpzuyz265068s7exymn4dq8h6ha9ep
+BTC > 1HvMriWTMaf1pY3Sak2i1vy5QmEcGMcEgK
 
 ETH > 0xBCa591260D9b0d25eD87dc9B4330980DA44DbB18
 ```
